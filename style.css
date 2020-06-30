@@ -43,4 +43,38 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.academic-colour{
+    color: teal;
+}
+.award-head{
+    padding-left: 100px;
+}
+.Award{
+    box-shadow: 7px 10px 40px rgba(128, 128, 128, 0.904);
+    border-radius: 10px;
+    height: 60%;
+    background-color: whitesmoke;
 
+}
+.third{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#box1{
+    border-left: 5px solid ;
+    border-image: linear-gradient( 180deg , rgba(91, 124, 24, 0.452), rgb(91, 124, 24));
+    border-image-slice: 1;
+}
+#box2{
+    border-left: 5px solid ;
+    border-image: linear-gradient( 180deg , rgba(214, 140, 3, 0.397),rgb(214, 140, 3) );
+    border-image-slice: 1;
+
+}
+.footer{
+    text-align: center;
+    background-color: rgba(100, 163, 223, 0.637);
+    padding-top: 5px;
+    font-size: 12px;
+}
